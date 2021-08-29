@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>contacts</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <h1>My Contact address</h1>
+  <p>
+    <em><b><a href="https://www.linkedin.com/in/sharvari-mhatre-9421b91b9/">linkedIn</a></b></em>
+  </p>
+  <p>My fictional Address</p>
+  <p>My fictonal phone number 7777777777</p>
+  <p>MyGmailAddress.com</p>
+  <hr>
+  <form action="mailto:sharvarimhatre2000@gmail.com" method="post" enctype="text/plain">
+    <!--the post here is to specify that the content in the form tag, when entered details it sends the info/details to the given mail id my opening up my mail box-->
+    <!-- the enctype attribute is used so when we hit the submit button it takes us to our own mail box app but the text that we entered in the message on the website will be in unicode form since the websies have different unicodes-->
+    <label>Your Name:</label>
+    <input type="text" name="YourName" value=""><br>
+    <label>Your Email ID :</label>
+    <input type="email" name="YourEmail" value=""><br>
+    <label>Your Message:</label><br>
+    <textarea name="YourMessage" rows="14" cols="30"></textarea> <br>
+    <input type="submit" name="">
+  </form>
+</body>
+
+</html>
